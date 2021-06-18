@@ -8,12 +8,12 @@
     <depends>com.intellij.modules.platform</depends>
 
     <extensions defaultExtensionNs="com.intellij">
-        <applicationService serviceImplementation="com.github.jiangbaotian.astemplate.services.MyApplicationService"/>
-        <projectService serviceImplementation="com.github.jiangbaotian.astemplate.services.MyProjectService"/>
+        <applicationService serviceImplementation="com.dywx.plugins.astemplate.services.MyApplicationService"/>
+        <projectService serviceImplementation="com.dywx.plugins.astemplate.services.MyProjectService"/>
     </extensions>
 
     <applicationListeners>
-        <listener class="com.github.jiangbaotian.astemplate.listeners.MyProjectManagerListener"
+        <listener class="com.dywx.plugins.astemplate.listeners.MyProjectManagerListener"
                   topic="com.intellij.openapi.project.ProjectManagerListener"/>
     </applicationListeners>
 </idea-plugin>

@@ -1,4 +1,4 @@
-package com.github.jiangbaotian.astemplate
+package com.dywx.plugins.astemplate
 
 import com.intellij.AbstractBundle
 import org.jetbrains.annotations.NonNls

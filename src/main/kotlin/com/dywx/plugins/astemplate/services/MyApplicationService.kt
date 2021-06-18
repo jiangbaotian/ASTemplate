@@ -1,6 +1,6 @@
-package com.github.jiangbaotian.astemplate.services
+package com.dywx.plugins.astemplate.services
 
-import com.github.jiangbaotian.astemplate.MyBundle
+import com.dywx.plugins.astemplate.MyBundle
 
 class MyApplicationService {
 
